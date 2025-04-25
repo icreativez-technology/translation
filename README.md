@@ -70,6 +70,12 @@ Copy
 Edit
 php artisan migrate
 
+
+Run with custom count and batch size:
+
+bash
+php artisan translations:seed --count=100000 --batch=10000
+
 Build Frontend Assets
 
 bash
